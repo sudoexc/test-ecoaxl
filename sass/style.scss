@@ -1,3 +1,4 @@
+@import "libs/fonts";
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +13,6 @@
 
 
 @import "libs/mixin";
-@import "libs/fonts";
 @import "_header";
 @import "_familiarization";
 @import "_advantages";
