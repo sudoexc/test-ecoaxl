@@ -1,0 +1,43 @@
+.organic {
+    padding-top: 105px;
+    &-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 53px;
+        .organic-left img {
+            width: 623px;
+        }
+        .organic-right {
+            &-title {
+                font-weight: 600;
+                font-size: 50.52px;
+                line-height: 62px;
+                color: #2B2B2B;
+            }
+            &-descr {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #2B2B2B;
+                padding-top: 25px;
+            }
+            .organic-box {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 23px;
+                padding-top: 50px;
+                img {
+                    width: 52px;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #2B2B2B;
+                }
+            }
+        }
+    }
+}

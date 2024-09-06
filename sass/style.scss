@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+@import "libs/mixin";
+@import "libs/fonts";
+@import "_header";
+@import "_familiarization";
+@import "_advantages";
+@import "_organic";
+@import "_pineapple";
+@import "_adds";
+@import "_forms";
+@import "_footer";

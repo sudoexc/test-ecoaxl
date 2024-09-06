@@ -1,0 +1,13 @@
+.footer {
+    min-height: 80px;
+    background-color: rgba(40, 94, 103, 1);
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-weight: 400;
+        color: #3a3a3a;
+        font-size: 12px;
+    }
+}
